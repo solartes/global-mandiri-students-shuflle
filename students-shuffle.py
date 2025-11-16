@@ -2,8 +2,8 @@ import csv
 import random
 
 # ====== CONFIGURACIÓN BÁSICA ======
-INPUT_FILE = "estudiantes_originales.csv"   # Tu archivo de entrada
-OUTPUT_FILE = "salones_examen.csv"         # Archivo de salida
+INPUT_FILE = "students-list.csv"   # Tu archivo de entrada
+OUTPUT_FILE = "students-shuffle-ordered.csv"         # Archivo de salida
 RANDOM_SEED = 42  # Para resultados reproducibles
 
 random.seed(RANDOM_SEED)
